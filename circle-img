@@ -1,0 +1,19 @@
+.circle-img {
+    background: #fff;
+    width: 100px;
+    height: 100px;  
+        padding: 5px;
+    border:#aaa 1px solid;
+    box-shadow: 0px 1px 1px 1px #bbb;
+}
+.circle-img img {
+    display: block;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    border-radius: 50%; /* CSS3 */
+    -moz-border-radius: 50%; /* Mozilla Firefox */
+        -webkit-border-radius: 50%; /* Chrome, Safari */
+        -khtml-border-radius: 50%; /* KHTML */
+       behavior: url(border-radius.htc); /* IE */
+}
